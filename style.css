@@ -266,7 +266,7 @@ header{
 }
 
 .conhecimento:nth-child(6){
-    grid-column: 11 / 14;
+    grid-column: 12 / 15;
     grid-row: 5 / -1;
 }
 
@@ -291,6 +291,7 @@ header{
 .conhecimento-header{
     display: flex;
     align-items: center;
+    color: grey;
 }
 
 .conhecimento-header i{
@@ -302,3 +303,29 @@ header{
     font-size: 2rem;
     padding-left: 1rem;
 }
+
+.conhecimento-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+
+.conhecimento-img-wrapper{
+    grid-column: 7 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+
+.conhecimento-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.projetos{
+    display: flex;
+}
+
+.card{
+    width: 20rem;
+    height: 30rem;
+}
+
